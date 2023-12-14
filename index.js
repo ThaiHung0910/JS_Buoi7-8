@@ -125,7 +125,7 @@ function minPosInt(i, arr) {
   if (newArr.length > 0) {
     for (var j = 0; j < newArr.length; j++) {
       if (minInt > newArr[j]) {
-        minInt = Math.min(minInt, newArr[j]);
+        minInt = newArr[j];
       }
     }
   } else {
